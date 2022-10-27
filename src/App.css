@@ -1,4 +1,174 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 1.5rem auto;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+.container, .btns-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.share-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  left: 75%;
+  border: 2px dotted #D0D5DD;
+  padding: 1rem;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.share-button:hover {
+  background: #F9FAFB;
+}
+
+.share-mobile {
+  display: none;
+}
+
+.avatar-container {
+  position: relative;
+}
+
+.avatar-container .avatar {
+  border-radius: 50%;
+  height: 88px;
+  margin: 4rem 0 1rem;
+  cursor: pointer;
+}
+
+.avatar-container:hover .avatar {
+  -webkit-filter: brightness(40%);
+}
+
+.avatar-container .edit {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.avatar-container:hover .edit {
+  visibility: visible;
+}
+
+.twitter-name {
+  margin-bottom: 3rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  text-align: center;
+}
+
+.slack-name {
+  display: none;
+}
+
+.btns-container {
+  width: 80%;
+  gap: 8px;
+}
+
+.btns-container a {
+  text-align: center;
+  padding: 24px 32px;
+  color: #101828;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+.btns-container a:hover {
+  background: #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  color: #101828;
+}
+
+a {
+  display: inline-block;
+}
+
+.wrk_icons {
+  margin: 3rem 0 5rem;
+}
+
+.wrk_icons img {
+  margin-right: 1rem;
+}
+
+footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .share-mobile {
+    display: block;
+  }
+
+  .share-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .btns-container {
+    width: 90%;
+  }
+  
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 20px;
+  }
+
+  footer p {
+    font-size: 14px;
+    color: #667085;
+    margin: 1.5rem 0;
+  }
+}
+  
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +205,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
