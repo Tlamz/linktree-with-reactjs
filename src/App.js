@@ -9,7 +9,7 @@ function App() {
         <img src="./images/share-mobile.svg" alt="" className='share-mobile'/>
       </div>
       <div className='avatar-container'>
-        <img className='avatar' src="./images/Oye.jpg" alt="tlamz-pic" id='profile_img' />
+        <img className='avatar' src="./images/Tlamz-50.jpg" alt="tlamz-pic" id='profile_img' />
         <img className='edit' src="./images/hover-img.svg" alt="" />
         <h3 id="twitter" className="twitter-name">Tlamz</h3>
         <h3 id="slack" className="slack-name">Tlamz</h3>
