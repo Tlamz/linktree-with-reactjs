@@ -4,9 +4,9 @@ import { Footer } from '../components/Footer.component';
 
 function Contact() {
     return (
-      <div className="contact_form">
+      <div className="contact-form">
         <header>
-          <h3>Contact Me</h3>
+          <h1>Contact Me</h1>
           <p>Hi there, contact me to ask me about anything you have in mind.</p>
         </header>
         <form action="">
@@ -46,13 +46,15 @@ function Contact() {
             placeholder="Send me a message and I'll reply you as soon as possible..."
             required
           ></textarea>
-          <div>
+          <div className='accept'>
             <input type="checkbox" id="" required />
             <span>
               You agree to providing your data to Tlamz who may contact you.
             </span>
           </div>
-          <input type="submit" value="send message" id="btn__submit" />
+          <button type="submit" id="btn__submit">
+            Send message
+          </button>
         </form>
         <Footer />
       </div>
