@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/linktree-with-reactjs/static/css/main.d695818f.css",
-    "main.js": "/linktree-with-reactjs/static/js/main.ef846a07.js",
+    "main.css": "/linktree-with-reactjs/static/css/main.c67acc44.css",
+    "main.js": "/linktree-with-reactjs/static/js/main.065c5db3.js",
     "static/js/787.28cb0dcd.chunk.js": "/linktree-with-reactjs/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/linktree-with-reactjs/index.html",
-    "main.d695818f.css.map": "/linktree-with-reactjs/static/css/main.d695818f.css.map",
-    "main.ef846a07.js.map": "/linktree-with-reactjs/static/js/main.ef846a07.js.map",
+    "main.c67acc44.css.map": "/linktree-with-reactjs/static/css/main.c67acc44.css.map",
+    "main.065c5db3.js.map": "/linktree-with-reactjs/static/js/main.065c5db3.js.map",
     "787.28cb0dcd.chunk.js.map": "/linktree-with-reactjs/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d695818f.css",
-    "static/js/main.ef846a07.js"
+    "static/css/main.c67acc44.css",
+    "static/js/main.065c5db3.js"
   ]
 }
