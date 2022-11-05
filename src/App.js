@@ -10,7 +10,8 @@ function App() {
     <div className="container">
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
+          <Route path="/linktree-with-reactjs" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
