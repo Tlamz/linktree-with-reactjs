@@ -1,26 +1,32 @@
 import React from 'react';
 import { Footer } from '../components/Footer.component';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import headshot from "./../images/Tlamz-50.jpg";
+import share from "./../images/share-desktop.svg";
+import share2 from "./../images/share-mobile.svg";
+import hover from "./../images/hover-img.svg";
+import slack from "./../images/slack.svg";
+import github from "./../images/github.svg";
 
 export function Home() {
     return (
         <>
             <div className="share-button">
                 <img
-                    src="./images/share-desktop.svg"
+                    src={share}
                     alt=""
                     className="share-desktop"
                 />
-                <img src="./images/share-mobile.svg" alt="" className="share-mobile" />
+                <img src={share2} alt="" className="share-mobile" />
             </div>
             <div className="avatar-container">
                 <img
                     className="avatar"
-                    src="./images/Tlamz-50.jpg"
+                    src={headshot}
                     alt="tlamz-pic"
                     id="profile_img"
                 />
-                <img className="edit" src="./images/hover-img.svg" alt="" />
+                <img className="edit" src={hover} alt="" />
                 <h3 id="twitter" className="twitter-name">
                     Tlamz
                 </h3>
@@ -61,8 +67,8 @@ export function Home() {
                 </Link>
             </div>
             <div className="wrk_icons">
-                <img src="./images/slack.svg" alt="" />
-                <img src="./images/github.svg" alt="" />
+                <img src={slack} alt="" />
+                <img src={github} alt="" />
             </div>
             <hr />
             <Footer />
