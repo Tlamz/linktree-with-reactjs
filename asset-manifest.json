@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/linktree-with-reactjs/static/css/main.c67acc44.css",
-    "main.js": "/linktree-with-reactjs/static/js/main.99c5a87f.js",
+    "main.js": "/linktree-with-reactjs/static/js/main.118690ec.js",
     "static/js/787.28cb0dcd.chunk.js": "/linktree-with-reactjs/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Tlamz-50.jpg": "/linktree-with-reactjs/static/media/Tlamz-50.0ff03709b69b6ec62b87.jpg",
+    "static/media/I4G.svg": "/linktree-with-reactjs/static/media/I4G.601ff0479d970c740e8b7d7ba7821548.svg",
+    "static/media/zuri.svg": "/linktree-with-reactjs/static/media/zuri.22d4298a15b0797cf13152b0b88226c6.svg",
+    "static/media/slack.svg": "/linktree-with-reactjs/static/media/slack.6fa75d08a444264c64393c623e71c055.svg",
+    "static/media/hover-img.svg": "/linktree-with-reactjs/static/media/hover-img.6317244a5381be929492c969c7c62821.svg",
+    "static/media/github.svg": "/linktree-with-reactjs/static/media/github.6a40f212828370260b880b93f8d36b56.svg",
+    "static/media/share-mobile.svg": "/linktree-with-reactjs/static/media/share-mobile.fce47d5ea86c1007d48aeb1d987c84a1.svg",
+    "static/media/share-desktop.svg": "/linktree-with-reactjs/static/media/share-desktop.e3f81b496e21f13d54272e5772ace63b.svg",
     "index.html": "/linktree-with-reactjs/index.html",
     "main.c67acc44.css.map": "/linktree-with-reactjs/static/css/main.c67acc44.css.map",
-    "main.99c5a87f.js.map": "/linktree-with-reactjs/static/js/main.99c5a87f.js.map",
+    "main.118690ec.js.map": "/linktree-with-reactjs/static/js/main.118690ec.js.map",
     "787.28cb0dcd.chunk.js.map": "/linktree-with-reactjs/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c67acc44.css",
-    "static/js/main.99c5a87f.js"
+    "static/js/main.118690ec.js"
   ]
 }
